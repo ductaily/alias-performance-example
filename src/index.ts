@@ -14,8 +14,6 @@ const ruleset: RulesetDefinition = {
 aliases: {
     odataV4: ['$.[?(@property === "x-sap-api-type" && @ === "ODATAV4")]'],
     odataV2: ['$.[?(@property === "x-sap-api-type" && @ === "ODATA")]'],
-    odataV2Read: ["#odataV2^.paths.*.get.responses.200"],
-    odataV4Read: ["#odataV4^.paths.*.get.responses.200"],
     odataV2All: ["#odataV2^.paths.*.*.responses[?(@property.match(/^[12]/))]"],
     odataV4All: ["#odataV4^.paths.*.*.responses[?(@property.match(/^[12]/))]"],
     odataAll: [
