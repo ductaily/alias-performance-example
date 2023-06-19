@@ -1,0 +1,31 @@
+{
+  "name": "alias-performance-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ductaily/spectral-alias-performance-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ductaily/spectral-alias-performance-example/issues"
+  },
+  "homepage": "https://github.com/ductaily/spectral-alias-performance-example#readme",
+  "devDependencies": {
+    "@types/node": "^20.3.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.1.3"
+  },
+  "dependencies": {
+    "@stoplight/spectral-cli": "^6.8.0",
+    "@stoplight/spectral-core": "^1.18.0",
+    "@stoplight/spectral-functions": "^1.7.2",
+    "@stoplight/spectral-parsers": "^1.0.2",
+    "@stoplight/spectral-rulesets": "^1.16.0"
+  }
+}
